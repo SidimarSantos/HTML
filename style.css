@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Primeira pagina */
+header{
+   background-color: #000000;
+   display: flex;
+   height: 100vh;
+   flex-wrap: wrap;
+}
+h1{
+    font-family: Krona One, sans-serif;
+    font-size: 50px;
+    color: #24FF00;
+    justify-content: center;
+    margin-top: 90px;
+    width: 150vh;
+}
+#perfil{
+    box-shadow: #15ff00 0px 2px 7px 7px;
+    height: 300px;
+    margin-top: 25vh;
+    margin-left: 10vh;
+    border-radius: 50%;
+    z-index: 9999;
+}
+#buttons{
+    align-items: flex-end;
+    display: flex;
+    width: 100vh;
+    justify-content: space-around;
+    margin-left: 400px;
+}
+#buttons > button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 40px;
+    font-family: Krona One, sans-serif;
+    font-size: 15px;
+    background-color: #212121;
+    box-shadow: #15ff00 2px 2px 2px;
+    margin-left: 40px;
+    color:#15ff00;
+}
+.sobre{
+    color: #D6D6D6;
+    font-family: Krona One, sans-serif;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 20px;
+    width: 100vh;
+}
+#retangulo{
+    width: 250px;
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #4d4e52;
+}
+.detalhes{
+    width: 600px;
+    margin-left: -110px;
+    display: flex;
+    align-items: flex-end;
+}
+#circulo{
+    height: 10px;
+    width: 10px;
+    background-color: #4d4e52;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.detalhes > h2{
+    color: #24FF00;
+    font-family: Krona One, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+/* Segunda pagina */
+#hardSkills{
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+h2{
+    font-family: Krona One, sans-serif;
+    font-size: 50px;
+    color: #24FF00;
+    justify-content: center;
+}
+#hardSkills > #titulohab{
+    display: flex;
+    justify-content: center;
+    border: #D6D6D6 solid;
+    width: 100%;
+}
+#imghab{
+    border: #D6D6D6 solid;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+#imghab > article > img{
+    height: 50px;
+    border: #D6D6D6 solid;
+}
+h3{
+    font-family: Krona One, sans-serif;
+    color: #D6D6D6;
+    font-size: 15px;
+    border: #D6D6D6 solid;
+    width: 150px;
+}
+#imagens{
+    height: 50px;
+    width: 300px;
+}
